@@ -5,8 +5,8 @@ This is a multiagentic system for grading the doctor's responses based on 3 crit
 - Completeness
 - Empathy
 How to run:
-- install the required libraries using "pip install -r requirements.txt"
-- run the system using the "python3 run_pipeline.py"
+- install the required libraries using '''pip install -r requirements.txt'''
+- run the system using  '''python3 run_pipeline.py'''
 
 IF this approach doesnt work:
  - create a virtual environment using "python3 -m venv venv"
