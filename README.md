@@ -15,10 +15,19 @@ This is a multiagentic system for grading the doctor's responses based on 3 crit
 ```python3 run_pipeline.py```
 
 IF this approach doesnt work:
- - create a virtual environment using ```python3 -m venv venv```
- - activate the environment: "source venv/bin/activate"
- - install the required libraries using "pip install -r requirements.txt"
- - run the system using the "python3 run_pipeline.py"
-```sql
-Select * from table
-```
+ - create a virtual environment using
+ 
+  
+ ```python3 -m venv venv```
+ - activate the environment:
+
+
+```source venv/bin/activate```
+- install the required libraries using
+
+
+```pip install -r requirements.txt```
+- run the system using
+
+
+```python3 run_pipeline.py```
