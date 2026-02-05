@@ -117,13 +117,13 @@ def create_data_files():
         "2"
     ]
 
-    with open('sm_questions.csv', mode='w', newline='', encoding='utf-8') as f:
+    with open('sm_questions.csv', mode='w+', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(["Question"])
         for q in questions:
             writer.writerow([q])
 
-    with open('sm_answers.csv', mode='w', newline='', encoding='utf-8') as f:
+    with open('sm_answers.csv', mode='w+', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(["Answer"])
         for a in answers:
