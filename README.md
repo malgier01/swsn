@@ -4,10 +4,14 @@ This is a multiagentic system for grading the doctor's responses based on 3 crit
 - Accuracy
 - Completeness
 - Empathy
-How to run:
+## How to run: 
 - install the required libraries using
+
+
 ```pip install -r requirements.txt```
 - run the system using
+
+
 ```python3 run_pipeline.py```
 
 IF this approach doesnt work:
@@ -15,3 +19,6 @@ IF this approach doesnt work:
  - activate the environment: "source venv/bin/activate"
  - install the required libraries using "pip install -r requirements.txt"
  - run the system using the "python3 run_pipeline.py"
+```sql
+Select * from table
+```
