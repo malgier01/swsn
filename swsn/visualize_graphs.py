@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import os
 
 def visualize_csv_row(csv_path, row_index=0, output_dir="output_graphs"):
+    """Create the knowledge graphs"""
     try:
         df = pd.read_csv(csv_path)
     except FileNotFoundError:
