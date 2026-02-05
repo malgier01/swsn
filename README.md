@@ -5,6 +5,7 @@ This is a multiagentic system for grading the doctor's responses based on 3 crit
 - Completeness
 - Empathy
 ## How to run: 
+```export GOOGLE API = "value"```
 - install the required libraries using
 
 
